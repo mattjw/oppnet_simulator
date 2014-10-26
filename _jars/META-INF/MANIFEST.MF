@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: ./_libs/xerces/resolver.jar ./_libs/xerces/xercesImpl.jar 
+ ./_libs/xerces/xercesSamples.jar ./_libs/xerces/xml-apis.jar
+Main-Class: SimRun
+

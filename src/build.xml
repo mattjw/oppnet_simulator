@@ -1,0 +1,16 @@
+<project name="MDA" default="echo" basedir=".">
+	
+	
+    <target name="compile">
+        <javac srcdir="./src" destdir="./bin"/>
+    	<echo>Compilation complete!</echo>
+    </target>
+
+    	
+    <property name="MyString" value="Here is some text" />
+    <target name="echo">
+        <echo>${MyString}</echo> 
+    </target>
+	
+	
+</project>
